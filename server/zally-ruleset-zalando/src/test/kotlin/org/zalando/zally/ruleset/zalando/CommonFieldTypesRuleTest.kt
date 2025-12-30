@@ -121,7 +121,7 @@ class CommonFieldTypesRuleTest {
                       properties:
                         id:
                           type: string
-                """.trimIndent(),
+                """.trimIndent()
             )
 
         assertThat(rule.checkTypesOfCommonFields(context)).isEmpty()
